@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Game Hexagon</title>
+  </head>
+  <body>
+    <div class="game">
+      <div class="icongame"></div>
+      <div class="play">
+        <div class="row">
+          <div class="board" id="board">
+            <div class="right">
+              <div id="0,0" onclick="playerClick(0,0)" class="hexa none"></div>
+              <div id="1,0" onclick="playerClick(1,0)" class="hexa none"></div>
+              <div id="2,0" onclick="playerClick(2,0)" class="hexa none"></div>
+              <div id="3,0" onclick="playerClick(3,0)" class="hexa none"></div>
+              <div id="4,0" onclick="playerClick(4,0)" class="hexa none"></div>
+              <div id="5,0" onclick="playerClick(5,0)" class="hexa none"></div>
+              <div id="6,0" onclick="playerClick(6,0)" class="hexa none"></div>
+              <div id="7,0" onclick="playerClick(7,0)" class="hexa none"></div>
+              <div id="8,0" onclick="playerClick(8,0)" class="hexa none"></div>
+              <div id="9,0" onclick="playerClick(9,0)" class="hexa none"></div>
+            </div>
+            <div class="left">
+              <div id="0,1" onclick="playerClick(0,1)" class="hexa none"></div>
+              <div id="1,1" onclick="playerClick(1,1)" class="hexa none"></div>
+              <div id="2,1" onclick="playerClick(2,1)" class="hexa none"></div>
+              <div id="3,1" onclick="playerClick(3,1)" class="hexa none"></div>
+              <div id="4,1" onclick="playerClick(4,1)" class="hexa none"></div>
+              <div id="5,1" onclick="playerClick(5,1)" class="hexa none"></div>
+              <div id="6,1" onclick="playerClick(6,1)" class="hexa none"></div>
+              <div id="7,1" onclick="playerClick(7,1)" class="hexa none"></div>
+              <div id="8,1" onclick="playerClick(8,1)" class="hexa none"></div>
+              <div id="9,1" onclick="playerClick(9,1)" class="hexa none"></div>
+            </div>
+            <div class="right">
+              <div id="0,2" onclick="playerClick(0,2)" class="hexa none"></div>
+              <div id="1,2" onclick="playerClick(1,2)" class="hexa none"></div>
+              <div id="2,2" onclick="playerClick(2,2)" class="hexa none"></div>
+              <div id="3,2" onclick="playerClick(3,2)" class="hexa none"></div>
+              <div id="4,2" onclick="playerClick(4,2)" class="hexa none"></div>
+              <div id="5,2" onclick="playerClick(5,2)" class="hexa none"></div>
+              <div id="6,2" onclick="playerClick(6,2)" class="hexa none"></div>
+              <div id="7,2" onclick="playerClick(7,2)" class="hexa none"></div>
+              <div id="8,2" onclick="playerClick(8,2)" class="hexa none"></div>
+              <div id="9,2" onclick="playerClick(9,2)" class="hexa none"></div>
+            </div>
+            <div class="left">
+              <div id="0,3" onclick="playerClick(0,3)" class="hexa none"></div>
+              <div id="1,3" onclick="playerClick(1,3)" class="hexa none"></div>
+              <div id="2,3" onclick="playerClick(2,3)" class="hexa none"></div>
+              <div id="3,3" onclick="playerClick(3,3)" class="hexa none"></div>
+              <div id="4,3" onclick="playerClick(4,3)" class="hexa none"></div>
+              <div id="5,3" onclick="playerClick(5,3)" class="hexa none"></div>
+              <div id="6,3" onclick="playerClick(6,3)" class="hexa none"></div>
+              <div id="7,3" onclick="playerClick(7,3)" class="hexa none"></div>
+              <div id="8,3" onclick="playerClick(8,3)" class="hexa none"></div>
+              <div id="9,3" onclick="playerClick(9,3)" class="hexa none"></div>
+            </div>
+            <div class="right">
+              <div id="0,4" onclick="playerClick(0,4)" class="hexa none"></div>
+              <div id="1,4" onclick="playerClick(1,4)" class="hexa none"></div>
+              <div id="2,4" onclick="playerClick(2,4)" class="hexa none"></div>
+              <div id="3,4" onclick="playerClick(3,4)" class="hexa none"></div>
+              <div id="4,4" onclick="playerClick(4,4)" class="hexa none"></div>
+              <div id="5,4" onclick="playerClick(5,4)" class="hexa none"></div>
+              <div id="6,4" onclick="playerClick(6,4)" class="hexa none"></div>
+              <div id="7,4" onclick="playerClick(7,4)" class="hexa none"></div>
+              <div id="8,4" onclick="playerClick(8,4)" class="hexa none"></div>
+              <div id="9,4" onclick="playerClick(9,4)" class="hexa none"></div>
+            </div>
+            <div class="left">
+              <div id="0,5" onclick="playerClick(0,5)" class="hexa none"></div>
+              <div id="1,5" onclick="playerClick(1,5)" class="hexa none"></div>
+              <div id="2,5" onclick="playerClick(2,5)" class="hexa none"></div>
+              <div id="3,5" onclick="playerClick(3,5)" class="hexa none"></div>
+              <div id="4,5" onclick="playerClick(4,5)" class="hexa none"></div>
+              <div id="5,5" onclick="playerClick(5,5)" class="hexa none"></div>
+              <div id="6,5" onclick="playerClick(6,5)" class="hexa none"></div>
+              <div id="7,5" onclick="playerClick(7,5)" class="hexa none"></div>
+              <div id="8,5" onclick="playerClick(8,5)" class="hexa none"></div>
+              <div id="9,5" onclick="playerClick(9,5)" class="hexa none"></div>
+            </div>
+            <div class="right">
+              <div id="0,6" onclick="playerClick(0,6)" class="hexa none"></div>
+              <div id="1,6" onclick="playerClick(1,6)" class="hexa none"></div>
+              <div id="2,6" onclick="playerClick(2,6)" class="hexa none"></div>
+              <div id="3,6" onclick="playerClick(3,6)" class="hexa none"></div>
+              <div id="4,6" onclick="playerClick(4,6)" class="hexa none"></div>
+              <div id="5,6" onclick="playerClick(5,6)" class="hexa none"></div>
+              <div id="6,6" onclick="playerClick(6,6)" class="hexa none"></div>
+              <div id="7,6" onclick="playerClick(7,6)" class="hexa none"></div>
+              <div id="8,6" onclick="playerClick(8,6)" class="hexa none"></div>
+              <div id="9,6" onclick="playerClick(9,6)" class="hexa none"></div>
+            </div>
+            <div class="left">
+              <div id="0,7" onclick="playerClick(0,7)" class="hexa none"></div>
+              <div id="1,7" onclick="playerClick(1,7)" class="hexa none"></div>
+              <div id="2,7" onclick="playerClick(2,7)" class="hexa none"></div>
+              <div id="3,7" onclick="playerClick(3,7)" class="hexa none"></div>
+              <div id="4,7" onclick="playerClick(4,7)" class="hexa none"></div>
+              <div id="5,7" onclick="playerClick(5,7)" class="hexa none"></div>
+              <div id="6,7" onclick="playerClick(6,7)" class="hexa none"></div>
+              <div id="7,7" onclick="playerClick(7,7)" class="hexa none"></div>
+              <div id="8,7" onclick="playerClick(8,7)" class="hexa none"></div>
+              <div id="9,7" onclick="playerClick(9,7)" class="hexa none"></div>
+            </div>
+          </div>
+          <div class="menu">
+            <h1>Leaderboard</h1>
+            <div class="input-group">
+              <label for="sort">Sort by: </label>
+              <select>
+                <option value="date">Date</option>
+              </select>
+            </div>
+            <div class="save" id="save">
+             
+            </div>
+          </div>
+        </div>
+
+        <div class="score">
+          <div id="current" class="current1">Current: 2</div>
+          <div class="player">
+            <div id="score1Text" class="current">Player 1 :</div>
+            <div id="score2Text" class="current">Player 2 :</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mainMenu" id="mainMenu">
+        <div class="iconGame"></div>
+        <input
+          type="text"
+          id="player-1"
+          value="Player 1"
+          placeholder="Name of player 1"
+        />
+        <input
+          type="text"
+          id="player-2"
+          value="Player 2"
+          placeholder="Name of player 2"
+        />
+        <p>Intruction: click hexagon use LMB</p>
+        <button onclick="playButton()">Play</button>
+      </div>
+      <div class="gameOver hide" id="gameOver">
+        <h1>GameFinish</h1>
+        <h4 id="winName" class="winName">Win</h4>
+        <h5 id="winScore">Score: 40</h5>
+        <button onclick="playAgain()">PlayAgain</button>
+      </div>
+    </div>
+
+    <audio id="click" src="click.mp3"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
